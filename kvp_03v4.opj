@@ -78,7 +78,16 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File" "pcb\KVP_03V4.brd")
+    ("Allegro Backannotation Netlist Directory" "pcb")
+    ("Allegro Backannotation Output File" "pcb\KVP_03V4.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "TRUE")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "D:\PROJECT\CIRCUIT\KVP\03V4\pcb\KVP_03V4.SWP")
+    (Backannotation_TAB "0"))
   (Folder "Outputs"
     (File ".\pcb\pstxnet.dat"
       (Type "Report")
@@ -90,7 +99,19 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\kvp_03v4.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\pcb\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\pcb\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\pcb\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\pcb\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (ACPL-M50L
@@ -117,13 +138,17 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\kvp_03v4.dsn")
-      (Path "Design Resources" ".\kvp_03v4.dsn" "TOP LEVEL")
-      (Path "Design Resources" ".\kvp_03v4.dsn" "A - RS422")
-      (Path "Design Resources" ".\kvp_03v4.dsn" "B - IO")
-      (Path "Design Resources" ".\kvp_03v4.dsn" "C - RS422")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
+         "A - RS422")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
+         "B - IO")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
+         "C - RS422")
       (Path "Outputs")
-      (Select "Design Resources" ".\kvp_03v4.dsn" "B - IO" "B - IO"))
+      (Select "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -133,8 +158,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 110 1551 135 634")
-        (Scroll "-227 200")
+        (Placement "44 2 3 -1 -1 -4 -28 110 1551 135 634")
+        (Scroll "-319 348")
         (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
@@ -143,9 +168,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 22 1463 27 526")
-        (Scroll "-319 648")
-        (Zoom "116")
+        (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
+        (Scroll "107 429")
+        (Zoom "232")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
       (Schematic "B - IO")
@@ -154,7 +179,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 44 1485 54 553")
-        (Scroll "-293 108")
+        (Scroll "-293 115")
         (Zoom "100")
         (Occurrence "/C1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
@@ -164,13 +189,13 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 0 1441 0 499")
-        (Scroll "-227 417")
-        (Zoom "116")
+        (Scroll "2240 1929")
+        (Zoom "464")
         (Occurrence "/A1"))
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
-        (Scroll "-466 0")
-        (Zoom "58")
+        (Scroll "-227 650")
+        (Zoom "116")
         (Occurrence "/A2"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
       (Schematic "A - RS422")
