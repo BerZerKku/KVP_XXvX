@@ -159,7 +159,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -28 110 1551 135 634")
-        (Scroll "-319 348")
+        (Scroll "-319 612")
         (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
@@ -169,8 +169,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
-        (Scroll "107 429")
-        (Zoom "232")
+        (Scroll "-227 125")
+        (Zoom "116")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
       (Schematic "B - IO")
@@ -189,12 +189,12 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 0 1441 0 499")
-        (Scroll "2240 1929")
-        (Zoom "464")
+        (Scroll "-227 614")
+        (Zoom "116")
         (Occurrence "/A1"))
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
-        (Scroll "-227 650")
+        (Scroll "-227 528")
         (Zoom "116")
         (Occurrence "/A2"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
