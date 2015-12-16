@@ -19,7 +19,7 @@
     (ANNOTATE_No_Page_Number_Change "FALSE")
     (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}{PACKAGE}")
     (ANNOTATE_IncludeNonPrimitive "FALSE")
-    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveDesignator "TRUE")
     (ANNOTATE_PreserveUserEdits "TRUE")
     (ANNOTATE_Refdes_Control_Required "FALSE")
     (Update_Instace_for_External_Design "FALSE")
@@ -114,6 +114,14 @@
       (DisplayName "compView.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (R_0.25W
+      (FullPartName "R_0.25W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (ACPL-M50L
       (FullPartName "ACPL-M50L.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
@@ -179,8 +187,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 44 1485 54 553")
-        (Scroll "-293 115")
-        (Zoom "100")
+        (Scroll "-227 168")
+        (Zoom "116")
         (Occurrence "/C1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
       (Schematic "C - RS422")
@@ -189,12 +197,12 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 0 1441 0 499")
-        (Scroll "173 114")
+        (Scroll "0 143")
         (Zoom "232")
         (Occurrence "/A1"))
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
-        (Scroll "-227 72")
+        (Scroll "-227 48")
         (Zoom "116")
         (Occurrence "/A2"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
