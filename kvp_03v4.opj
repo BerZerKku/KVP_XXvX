@@ -113,7 +113,7 @@
       (Type "Report")
       (DisplayName "compView.dat"))
     (Sort User)
-    (File "KVP_03V4.PRP"
+    (File ".\kvp_03v4.prp"
       (Type "Report")
       (DisplayName "KVP_03V4.PRP")))
   (Folder "Referenced Projects")
@@ -150,17 +150,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn")
-      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
-         "A - RS422")
-      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
-         "B - IO")
-      (Path "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"
-         "C - RS422")
+      (Path "Design Resources" ".\kvp_03v4.dsn")
+      (Path "Design Resources" ".\kvp_03v4.dsn" "TOP LEVEL")
+      (Path "Design Resources" ".\kvp_03v4.dsn" "A - RS422")
+      (Path "Design Resources" ".\kvp_03v4.dsn" "B - IO")
+      (Path "Design Resources" ".\kvp_03v4.dsn" "C - RS422")
       (Path "Outputs")
-      (Select "Design Resources" "d:\project\circuit\kvp\03v4\kvp_03v4.dsn"))
+      (Select "Design Resources" ".\kvp_03v4.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -170,8 +166,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 110 1551 135 634")
-        (Scroll "-466 0")
+        (Placement "44 2 3 -1 -1 -4 -28 110 1551 135 634")
+        (Scroll "-558 -8")
         (Zoom "58")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
@@ -181,7 +177,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
-        (Scroll "-227 554")
+        (Scroll "-227 36")
         (Zoom "116")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
@@ -191,8 +187,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 44 1485 54 553")
-        (Scroll "462 916")
-        (Zoom "232")
+        (Scroll "-466 0")
+        (Zoom "58")
         (Occurrence "/C1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
       (Schematic "C - RS422")
@@ -200,13 +196,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 0 1441 0 499")
-        (Scroll "-319 72")
+        (Placement "44 0 1 -1 -1 -4 -28 0 1441 0 499")
+        (Scroll "-227 0")
         (Zoom "116")
         (Occurrence "/A1"))
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 22 1463 27 526")
-        (Scroll "-227 171")
+        (Scroll "-227 36")
         (Zoom "116")
         (Occurrence "/A2"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V4\KVP_03V4.DSN")
